@@ -6,17 +6,6 @@
       "name": "Development server",
       "request": "launch",
       "type": "node-terminal"
-    },
-    {
-      "name": "Docker Node.js Launch",
-      "type": "docker",
-      "request": "launch",
-      "preLaunchTask": "docker-run: debug",
-      "platform": "node",
-      "node": {
-        "package": "${workspaceFolder}/node_modules/astro/package.json",
-        "localRoot": "${workspaceFolder}/node_modules/astro"
-      }
     }
   ]
 }
